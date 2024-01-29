@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-assets>
+        <a-asset-item id="Train" src="models/train.gltf"></a-asset-item>
+        <a-asset-item id="Name-Tag" src="models/Name-Tag.gltf"></a-asset-item>
+    </a-assets>
+    <a-scene>
+        <a-entity gltf-model="#Train" rotation="-90 0 0" color="#FF0000" position="0 0 -20" height="10"></a-entity>
+        <a-entity gltf-model="#Name-Tag" rotation="-40 0 0" scale ="0.1 0.1 0.1" position="0 -2 -4"></a-entity></a-entity>
+        <a-entity text="value: Finn Conroy" position="6.55863 0.81498 -6.01238" width="10" color="#FF0000" scale="20 22.25192 20" rotation="-39.99990255146816 0 25.954988119426293">
+        </a-entity>            
+    </a-scene>
+  </body>
+</html>
