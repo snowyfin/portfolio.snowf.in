@@ -35,8 +35,18 @@ body {
     /* you can delete the line below if you'd prefer to not use an image */
     background-size: 65px;
     color: black;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
             }
-
+            @keyframes fadeInAnimation {
+                0% {
+                    opacity: 0;
+                }
+                100% {
+                    opacity: 1;
+                 }
+            }
 * {
     box-sizing: border-box;
 }
@@ -66,7 +76,6 @@ text-decoration:none; */
 /* navigation section!! */
 #navbar {
   background-color: white;
-    height: 40px;
     /* navbar color */
 }
 
@@ -84,9 +93,9 @@ text-decoration:none; */
 
 /* navigation links*/
 #navbar li a {
+    font-size: 25px;
     color: black;
     /* navbar text color */
-    font-weight: 800;
     text-decoration: none;
     /* this removes the underline */
 }
