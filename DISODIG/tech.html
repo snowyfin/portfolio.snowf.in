@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Finn's Portfolio</title>
+    <link rel="icon" type="image/x-ixon" href="images/Favicon.ico">
+  </head>
+  <body>
+    <script src="./oneko.js"></script>
+    <div id="container">
+      <div class="expand" id="topBar" style="margin-top:10px;text-align:center;">
+        <b>
+          <a href="/DISODIG/DISODIG.html">Do I Stay Or Do I Go?</a>
+        </b>
+      </div>
+      <div id="flex">
+        <main>
+          <hr>
+          <h1 class="expand" style="text-align: center;">Technology</h1>
+          <p class="expand" style="text-align: center;">
+            <strong>How does it change in outer space?</strong>
+          </p>
+          <p style="padding:10px;font-size:25px;">Working with NASA, we are always developing more and more comforts and styles of living in this new habitat! With all of the telescopes we have now, we are always discovering new objects in this wide space of ours. Technology has improved now so that people are able to live in outer space! November 2nd 2000 was the first time that humans have been inhabited in a home outside of earth, being the <a href="https://en.wikipedia.org/wiki/International_Space_Station">ISS</a>! <br>There have been many new tools made to accommodate living in this space of ours. Some of these include 3d printers, better rovers for exploring planets before humans can come to them, and better satallite technology. </p>
+          <h3 class="expand" style="text-align: center;">Do the different areas of technology still stand in space? <br>They sure do! </h3>
+          <ul>
+            <li>
+              <a href="/DISODIG/medical.html">Medical Technology</a>
+            </li>
+            <li>
+              <a href="/DISODIG/agriculture.html">Agricultural Technology</a>
+            </li>
+            <li>
+              <a href="/DISODIG/energy.html">Energy Technology</a>
+            </li>
+            <li>
+              <a href="/DISODIG/communication.html">Communication Technology</a>
+            </li>
+            <li>
+              <a href="/DISODIG/transportation.html">Transportation Technology</a>
+            </li>
+            <li>
+              <a href="/DISODIG/manufacturing.html">Manufacturing Technology</a>
+            </li>
+            <li>
+              <a href="/DISODIG/construction.html">Construction Technology</a>
+            </li>
+          </ul>
+          <hr>
+          <footer style="background-color: #76453B; margin-top: 10px;color: #F8FAE5;">Finn Conroy © 2023-2024 | Do I stay or do I go? Space research and communications</footer>
+        </main>
+        <aside class="rightSidebar" style="overflow: auto;">
+          <img src="https://www.nasa.gov/wp-content/uploads/static/60counting/img/3dprinter.jpg" width="160px">
+          <img src="https://www.nasa.gov/wp-content/uploads/static/60counting/img/dsoc.jpg" width="160px">
+          <img src="https://www.nasa.gov/wp-content/uploads/2023/02/20221116_steve-boxall_fll_zg659_research_flight_1415-e1687443749349.jpg?w=160" width="160">
+          <img src="https://www.nasa.gov/wp-content/uploads/2019/02/spinoff_2-station.jpg" width="160px">
+          <img src="https://spaceplace.nasa.gov/review/what-powers-a-spacecraft/solar-power.en.jpg" width="160px">
+          <img src="https://www.nasa.gov/wp-content/uploads/2020/10/untitled-1-04.png" width="160px">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/North_American_Rockwell_P333.jpg/220px-North_American_Rockwell_P333.jpg" width="160px">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Future_Moon_base.jpg/450px-Future_Moon_base.jpg" width="160px">
+          <img src="https://acropolis-wp-content-uploads.s3.us-west-1.amazonaws.com/space-construction-astronaut.png" width="160px">
+        </aside>
+      </div>
+      <!-- THIS IS THE CSS !-->
+      <style>
+        :root {
+          --header-image: url('https://sadhost.neocities.org/images/layouts/wp.jpeg');
+          --body-bg-image: url('/images/stars4.gif');
+          /* colors */
+          --content: #94AF9F;
+        }
+
+        @font-face {
+          font-family: Nunito;
+          src: url('https://sadhost.neocities.org/fonts/Nunito-Regular.ttf');
+        }
+
+        @font-face {
+          font-family: Nunito;
+          src: url('https://sadhost.neocities.org/fonts/Nunito-Bold.ttf');
+          font-weight: bold;
+        }
+
+        @font-face {
+          font-family: Nunito;
+          src: url('https://sadhost.neocities.org/fonts/Nunito-Italic.ttf');
+          font-style: italic;
+        }
+
+        @font-face {
+          font-family: Nunito;
+          src: url('https://sadhost.neocities.org/fonts/Nunito-BoldItalic.ttf');
+          font-style: italic;
+          font-weight: bold;
+        }
+
+        body {
+          font-family: 'Nunito', sans-serif;
+          margin: 0;
+          background-color: #AEC2B6;
+          /* you can delete the line below if you'd prefer to not use an image */
+          background-size: 65px;
+          color: #43766C;
+          background-image: var(--body-bg-image);
+        }
+
+        * {
+          box-sizing: border-box;
+        }
+
+        #container {
+          max-width: 900px;
+          margin: 0 auto;
+          /* this centers the entire page */
+        }
+
+        .dot {
+          background-color: #bbb;
+          border-radius: 50%;
+          display: inline-block;
+        }
+
+        #container a {
+          color: #43766C;
+          font-weight: bold;
+          /* if you want to remove the underline
+      you can add a line below here that says:
+      text-decoration:none; */
+        }
+
+        #header {
+          width: 100%;
+          background-color: #BBD6B8;
+          /* header color here! */
+          height: 150px;
+          background-image: var(--header-image);
+          background-size: 100%;
+        }
+
+        /* navigation section!! */
+        #navbar {
+          height: 40px;
+          background-color: #AEC2B6;
+          /* navbar color */
+          width: 100%;
+        }
+
+        #navbar ul {
+          display: flex;
+          padding: 0;
+          margin: 0;
+          list-style-type: none;
+          justify-content: space-evenly;
+        }
+
+        #navbar li {
+          padding-top: 10px;
+        }
+
+        /* navigation links*/
+        #navbar li a {
+          color: #43766C;
+          /* navbar text color */
+          font-weight: 800;
+          text-decoration: none;
+          /* this removes the underline */
+        }
+
+        /* navigation link when a link is hovered over */
+        #navbar li a:hover {
+          color: #a49cba;
+          text-decoration: underline;
+        }
+
+        #flex {
+          display: flex;
+        }
+
+        aside {
+          background-color: #94AF9F;
+          width: 200px;
+          padding: 20px;
+          font-size: smaller;
+          /* this makes the sidebar text slightly smaller */
+        }
+
+        main {
+          background-color: #F8FAE5;
+          flex: 1;
+          order: 2;
+        }
+
+        footer {
+          background-color: #13092D;
+          /* background color for footer */
+          width: 100%;
+          height: 40px;
+          padding: 10px;
+          text-align: center;
+          /* this centers the footer text */
+        }
+
+        */ #leftSidebar {
+          order: 1;
+        }
+
+        #rightSidebar {
+          order: 3;
+        }
+
+        h1,
+        h2,
+        h3 {
+          color: #867070;
+        }
+
+        h1 {
+          font-size: 25px;
+        }
+
+        strong {
+          /* this styles bold text */
+          color: #867070;
+        }
+
+        /* this is just a cool box, it's the darker colored one */
+        .box {
+          background-color: #13092D;
+          border: 1px solid #F8FAE5;
+          padding: 10px;
+        }
+
+        /* CSS for extras */
+        #topBar {
+          width: 100%;
+          height: 30px;
+          padding: 10px;
+          font-size: smaller;
+          background-color: #F8FAE5;
+        }
+
+        .expand {
+          letter-spacing: normal;
+          transition-duration: 0.5s;
+        }
+
+        .expand:hover {
+          letter-spacing: 2px;
+        }
+
+        .expand2 {
+          width: 300px;
+          height: 300px;
+          transition-duration: 0.5s;
+        }
+
+        .expand2:hover {
+          transform: scale(1.05);
+        }
+
+        @media only screen and (max-width: 800px) {
+          #flex {
+            flex-wrap: wrap;
+          }
+
+          aside {
+            width: 100%;
+          }
+
+          main {
+            order: 1;
+          }
+
+          #leftSidebar {
+            order: 2;
+          }
+
+          #rightSidebar {
+            order: 3;
+          }
+
+          #navbar ul {
+            flex-wrap: wrap;
+          }
+
+          .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+          }
+        }
+      </style>
+  </body>
+</html>
