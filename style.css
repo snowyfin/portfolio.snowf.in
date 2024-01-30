@@ -4,29 +4,25 @@
     --content: #94AF9F;
 }
 
-@font-face {
-    font-family: Nunito;
-    src: url('https://sadhost.neocities.org/fonts/Nunito-Regular.ttf');
+@font-face{
+    font-family: Josefin-Sans;
+    src: url('fonts/JosefinSans-VariableFont_wght.ttf')
 }
 
-@font-face {
-    font-family: Nunito;
-    src: url('https://sadhost.neocities.org/fonts/Nunito-Bold.ttf');
-    font-weight: bold;
+@font-face{
+    font-family: New-Astro;
+    src: url('fonts/New\ Astro\ Regular.otf')
 }
 
-@font-face {
-    font-family: Nunito;
-    src: url('https://sadhost.neocities.org/fonts/Nunito-Italic.ttf');
-    font-style: italic;
+@font-face{
+    font-family: Patua-One;
+    src: url('fonts/PatuaOne-Regular.ttf')
 }
 
-@font-face {
-    font-family: Nunito;
-    src: url('https://sadhost.neocities.org/fonts/Nunito-BoldItalic.ttf');
-    font-style: italic;
-    font-weight: bold;
-}
+p {
+    text-indent: 30pt;
+    font-family: Josefin-Sans;
+  }
 
 body {
     font-family: 'Nunito', sans-serif;
@@ -71,6 +67,7 @@ text-decoration:none; */
     /* header color here! */
     height: 150px;
     background-size: 100%;
+    font-family:New-Astro;
 }
 
 /* navigation section!! */
@@ -139,6 +136,7 @@ main {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  font-family: Patua-One;
 }
 
 /* Links inside the dropdown */
@@ -146,13 +144,14 @@ main {
   color: black;
   padding: 12px 16px;
   display: block;
+  font-family: Patua-One;
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {background-color: #ddd;font-family: Patua-One;}
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {display: block; font-family: Patua-One;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 
@@ -178,7 +177,8 @@ footer {
 h1,
 h2,
 h3 {
-    color: #867070;
+    color: #1D5B79;
+    font-family:New-Astro;
 }
 
 h1 {
@@ -187,7 +187,8 @@ h1 {
 
 strong {
     /* this styles bold text */
-    color: #867070;
+    color: #1D5B79;
+    font-family:New-Astro;
 }
 
 /* this is just a cool box, it's the darker colored one */
@@ -233,6 +234,7 @@ strong {
 
     #navbar ul {
         flex-wrap: wrap;
+        font-family: Patua-One;
     }
     .center {
       display: block;
