@@ -86,6 +86,7 @@ text-decoration:none; */
 
 #navbar li {
     padding-top: 10px;
+    text-decoration:none;
 }
 
 /* navigation links*/
@@ -94,13 +95,11 @@ text-decoration:none; */
     color: black;
     /* navbar text color */
     text-decoration: none;
-    /* this removes the underline */
 }
 
 /* navigation link when a link is hovered over */
 #navbar li a:hover {
-    color: #a49cba;
-    text-decoration: underline;
+    color:red;
 }
 
 #flex {
@@ -148,11 +147,11 @@ main {
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;font-family: Patua-One;}
+.dropdown-content a:hover {color:red;}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block; font-family: Patua-One;}
-
+.dropdown:hover {color:red;}
 /* Change the background color of the dropdown button when the dropdown content is shown */
 
 
