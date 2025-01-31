@@ -1,50 +1,28 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Resume</title>
-        <link rel="icon" type="image/x-ixon" href="images/Favicon.ico">
-        <link rel="stylesheet" href="style.css">
-
-    </head>
+  <head>
+    <title>Resume</title>
+    <link rel="icon" type="image/x-ixon" href="images/Favicon.ico">
+    <link rel="stylesheet" href="style.css">
+  </head>
   <body>
-    
     <script src="./oneko.js"></script>
-            <div id="headerArea">
-             
-              <nav id="navbar" style="max-width: 720px;margin-top:300px;font:50px;margin-left: auto;margin-right: auto;">
-                <ul style="font-family: Patua-One;">
-                  <li><a href="index.html">HOME</a></li>
-                  <li> 
-                      <div class="dropdown" style="font-size: 25px;">
-                      HIGHSCHOOL
-                      <div class="dropdown-content">
-                        <a href="handtools.html">Materials & Processing 1</a>
-                        <a href="Rube-Goldberg.html">Engineering & Design</a>
-                      </div>
-                    </div> </li>
-                  <li> 
-                      <div class="dropdown" style="font-size: 25px;">
-                      PERSONAL
-                      <div class="dropdown-content">
-                      </div>
-                    </div> </li>
-              </ul>
-    </nav> 
-            </div>
-
-            <div id="flex">
-                
-                <main style="text-align:center;max-width:720px; max-height: 900px;font-size: 20px;border-radius: 2.5%;margin:auto;">
-                    <img src="images/portfolio.png" style="width: 750px;position: absolute;margin-top: -600px;margin-left: -370px;z-index: -2;">
-
-                    <h2>Finn Conroy's High School Resume</h2>
-                    <iframe src="https://docs.google.com/document/d/e/2PACX-1vQwykjHCpKLBFP0-skJLTRnq4otff6zYtL2tbhiNp7ozxLWPF9mUHnVDQO9jzejnRG8mSJcDPY3oLMb/pub?embedded=true" frameborder="0" width="700" height="1600" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-                    <hr><p style="text-align: center;">BY-NC-SA ©2023-2025 Snowfin <a href="https://github.com/snowyfin/school-portfolio">Github</a></p>
-                  </main>
-                
-            
-        </div>
-
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script>
+      $(function() {
+        $("#includedContent").load("header.html");
+      });
+    </script>
+    <div id="includedContent"></div>
+    <div id="flex">
+      <main style="text-align:center;max-width:720px; max-height: 900px;font-size: 20px;border-radius: 2.5%;margin:auto;">
+        <img src="images/portfolio.png" style="width: 750px;position: absolute;margin-top: -600px;margin-left: -370px;z-index: -2;">
+        <h2>Finn Conroy's High School Resume</h2>
+        <iframe src="https://docs.google.com/document/d/e/2PACX-1vQwykjHCpKLBFP0-skJLTRnq4otff6zYtL2tbhiNp7ozxLWPF9mUHnVDQO9jzejnRG8mSJcDPY3oLMb/pub?embedded=true" frameborder="0" width="700" height="1600" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+        <hr>
+        <p style="text-align: center;">BY-NC-SA ©2023-2025 Snowfin <a href="https://github.com/snowyfin/school-portfolio">Github</a>
+        </p>
+      </main>
+    </div>
   </body>
-  
 </html>

@@ -1,62 +1,31 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>ENG | Machine League Baseball</title>
-        <link rel="icon" type="image/x-ixon" href="images/Favicon.ico">
-        <link rel="stylesheet" href="style.css">
-
-    </head>
+  <head>
+    <title>ENG | Machine League Baseball</title>
+    <link rel="icon" type="image/x-ixon" href="images/Favicon.ico">
+    <link rel="stylesheet" href="style.css">
+  </head>
   <body>
-    
     <script src="./oneko.js"></script>
-            <div id="headerArea">
-             
-              <nav id="navbar" style="max-width: 720px;margin-top:300px;font:50px;margin-left: auto;margin-right: auto;">
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li> 
-                        <div class="dropdown" style="font-size: 25px;">
-                        MATERIALS 1
-                        <div class="dropdown-content">
-                          <a href="handtools.html">Hand Tools</a>
-                          <a href="puzzle.html">Puzzle Project</a>
-                          <a href="Box.html">Box Project</a>
-                        </div>
-                      </div> </li>
-                    <li> 
-                        <div class="dropdown" style="font-size: 25px;">
-                        ENGINEERING
-                        <div class="dropdown-content">
-                          <a href="/DISODIG/DISODIG.html">Do I stay or do I go?</a>
-                          <a href="Rube-Goldberg.html">Rube Goldberg Machine</a>
-                          <a href="MLB.html">Machine League baseball</a>
-                          <a href="logo.html">Logo</a>
-                          <a href="transportation.html">Transportation</a>
-                          <a href="bridge.html">Bridge Project</a>
-                          <a href="misc.html">Misc</a>
-
-                        </div>
-                      </div> </li>
-                </ul>
-    </nav> 
-            </div>
-
-            <div id="flex">
-                
-                <main style="text-align:center;max-width:720px; max-height: 900px;font-size: 20px;border-radius: 2.5%;margin:auto;">
-                    <img src="images/portfolio.png" style="width: 750px;position: absolute;margin-top: -600px;margin-left: -370px;z-index: -2;">
-
-                    <h2>Machine League Baseball</h2>
-                    <p>Starting out with this project, I thought that my group was going to do well. Further into the project I figured out that my solution wasn't going to work the best that we could with the materials provided.</p>
-                    <p>I liked the idea of this project, but the way I executed it made it so that it wasn't all that good.</p>
-                    <p>This project taught me that my solution isn't going to work out, and it sometimes needs more thoughts before you exhaust all of your resources.</p>
-                    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT9MJLuiImJhzegEOYBd9iMeL79LQEnsroZ4_AWba2SYhbakJ7LkJ_AZnZNRm6ccxZ7_x9Ze_OqsKDA/embed?start=true&loop=true&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>            
-                    <hr>
-                    <p>BY-NC-SA ©2023-2025 Snowfin <a href="https://github.com/snowyfin/school-portfolio">Github</a></p>
-                    </main>
-                  </div>
-
-    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script>
+      $(function() {
+        $("#includedContent").load("header.html");
+      });
+    </script>
+    <div id="includedContent"></div>
+    <div id="flex">
+      <main style="text-align:center;max-width:720px; max-height: 900px;font-size: 20px;border-radius: 2.5%;margin:auto;">
+        <img src="images/portfolio.png" style="width: 750px;position: absolute;margin-top: -600px;margin-left: -370px;z-index: -2;">
+        <h2>Machine League Baseball</h2>
+        <p>Starting out with this project, I thought that my group was going to do well. Further into the project I figured out that my solution wasn't going to work the best that we could with the materials provided.</p>
+        <p>I liked the idea of this project, but the way I executed it made it so that it wasn't all that good.</p>
+        <p>This project taught me that my solution isn't going to work out, and it sometimes needs more thoughts before you exhaust all of your resources.</p>
+        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT9MJLuiImJhzegEOYBd9iMeL79LQEnsroZ4_AWba2SYhbakJ7LkJ_AZnZNRm6ccxZ7_x9Ze_OqsKDA/embed?start=true&loop=true&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+        <hr>
+        <p>BY-NC-SA ©2023-2025 Snowfin <a href="https://github.com/snowyfin/school-portfolio">Github</a>
+        </p>
+      </main>
+    </div>
   </body>
-  
 </html>

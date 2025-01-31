@@ -1,60 +1,29 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>MAP1 | Puzzles Project</title>
-        <link rel="icon" type="image/x-ixon" href="images/Favicon.ico">
-        <link rel="stylesheet" href="style.css">
-
-    </head>
+  <head>
+    <title>MAP1 | Puzzles Project</title>
+    <link rel="icon" type="image/x-ixon" href="images/Favicon.ico">
+    <link rel="stylesheet" href="style.css">
+  </head>
   <body>
-    
     <script src="./oneko.js"></script>
-            <div id="headerArea">
-             
-              <nav id="navbar" style="max-width: 720px;margin-top:300px;font:50px;margin-left: auto;margin-right: auto;">
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li> 
-                        <div class="dropdown" style="font-size: 25px;">
-                        MATERIALS 1
-                        <div class="dropdown-content">
-                          <a href="handtools.html">Hand Tools</a>
-                          <a href="puzzle.html">Puzzle Project</a>
-                          <a href="Box.html">Box Project</a>
-                        </div>
-                      </div> </li>
-                    <li> 
-                        <div class="dropdown" style="font-size: 25px;">
-                        ENGINEERING
-                        <div class="dropdown-content">
-                          <a href="/DISODIG/DISODIG.html">Do I stay or do I go?</a>
-                          <a href="Rube-Goldberg.html">Rube Goldberg Machine</a>
-                          <a href="MLB.html">Machine League baseball</a>
-                          <a href="logo.html">Logo</a>
-                          <a href="transportation.html">Transportation</a>
-                          <a href="bridge.html">Bridge Project</a>
-                          <a href="misc.html">Misc</a>
-
-                        </div>
-                      </div> </li>
-                </ul>
-    </nav> 
-            </div>
-
-            <div id="flex">
-                
-                <main style="text-align:center;max-width:720px; max-height: 900px;font-size: 20px;border-radius: 2.5%;margin:auto;">
-                    <img src="images/portfolio.png" style="width: 750px;position: absolute;margin-top: -600px;margin-left: -370px;z-index: -2;">
-
-                    <h2>Puzzles Project</h2>
-                    <p>I will write down my puzzle project when I get to it here.</p>
-                    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS4Xl8-jxY0ztleJGjpw8KM5WuYUZDwP_H5BrX6UD4tz9CTXm5SHk8XLZu8jJMttPO_ag3sQBw593KC/embed?start=true&loop=true&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-                    <hr><p style="text-align: center;">BY-NC-SA ©2023-2025 Snowfin <a href="https://github.com/snowyfin/school-portfolio">Github</a></p>
-                  </main>
-                
-            
-        </div>
-
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script>
+      $(function() {
+        $("#includedContent").load("header.html");
+      });
+    </script>
+    <div id="includedContent"></div>
+    <div id="flex">
+      <main style="text-align:center;max-width:720px; max-height: 900px;font-size: 20px;border-radius: 2.5%;margin:auto;">
+        <img src="images/portfolio.png" style="width: 750px;position: absolute;margin-top: -600px;margin-left: -370px;z-index: -2;">
+        <h2>Puzzles Project</h2>
+        <p>I will write down my puzzle project when I get to it here.</p>
+        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS4Xl8-jxY0ztleJGjpw8KM5WuYUZDwP_H5BrX6UD4tz9CTXm5SHk8XLZu8jJMttPO_ag3sQBw593KC/embed?start=true&loop=true&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+        <hr>
+        <p style="text-align: center;">BY-NC-SA ©2023-2025 Snowfin <a href="https://github.com/snowyfin/school-portfolio">Github</a>
+        </p>
+      </main>
+    </div>
   </body>
-  
 </html>
