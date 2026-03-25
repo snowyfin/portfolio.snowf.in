@@ -1,6 +1,14 @@
 :root {
     --content: #94AF9F;
+    --brm: 1;
 }
+
+@supports (corner-shape: squircle) {
+  :root {
+    --brm: 2;
+  }
+}
+
 /*Included Fonts*/
 @font-face{font-family: Special Gothic;src: url('./!g/SpecialGothic_SemiCondensed-SemiBold.ttf')}
 @font-face{font-family: Josefin-Sans;src: url('./!g/JosefinSans-VariableFont_wght.ttf')}
@@ -139,6 +147,12 @@ strong {
 /*Dropdown Content*/
 .dropdown {
     font-size: 25px;
+    width:125%;
+    text-align:center;
+    background-color: #f1f1f1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: calc(16px * var(--brm));
+    corner-shape: squircle;
 }
 .dropdown-content {
   display: none;
